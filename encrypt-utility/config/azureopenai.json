@@ -1,0 +1,17 @@
+{
+	"apiKey": "",
+	"integrationParameters": {
+		"headers": {
+			"Content-Type": "application/json",
+			"api-key": "@{apiKey}"
+		},
+		"authorization": {
+			"authenticationMethod": "NoAuth"
+		},
+		"httpMethod": "POST",
+		"apiBaseUrl": "@{apiBaseUrl}",
+		"queryParameters": {},
+		"requestContentType": "JSON",
+		"responseContentType": "JSON"
+	}
+}

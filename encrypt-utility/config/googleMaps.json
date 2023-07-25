@@ -1,0 +1,6 @@
+{
+	"vendor": "@{vendor}",
+	"credentials": {
+		"googleMapsApiAccessKey": "@{googleMapsApiAccessKey}"
+	}
+}

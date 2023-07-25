@@ -1,0 +1,17 @@
+{
+	"phraseGeneration": {
+		"enabled": true,
+		"apiSettings": {
+			"model": "gpt-3.5-turbo",
+			"temperature": 0.7,
+			"max_tokens": 500,
+			"top_p": 1,
+			"messages": [
+				{
+					"role": "user",
+					"content": "Generate @{n} different variations for the given phrase in the same locale.\\nPhrase: @{phrase}"
+				}
+			]
+		}
+	}
+}

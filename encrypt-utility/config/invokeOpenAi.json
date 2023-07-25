@@ -1,0 +1,10 @@
+{
+	"headers": {
+		"Content-Type": "application/json"
+	},
+	"httpMethod": "POST",
+	"requestUri": "@{requestUri}",
+	"queryParameters": {},
+	"requestContentType": "JSON",
+	"responseContentType": "JSON"
+}
